@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6.8% 0 13%;
+    height: 78px;
+    position: absolute;
+    width: 100%;
+}
+
+.navLinks{
+    display: flex;
+    list-style-type: none;
+}
+
+.navLink{
+    font-family: Roboto,sans-serif;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    padding: 0 5px 4px;
+}
+
+.navLink:not(:last-of-type){
+    margin-right: 16px;
+}
+
+.navLinkActive{
+    border-bottom: 3px solid black;
+}
